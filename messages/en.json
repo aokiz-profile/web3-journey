@@ -1,0 +1,667 @@
+{
+  "metadata": {
+    "title": "Web3 Learning Journey",
+    "description": "A systematic Web3 learning path, from beginner to expert"
+  },
+  "nav": {
+    "home": "Home",
+    "content": "Content",
+    "roadmap": "Roadmap",
+    "progress": "Progress",
+    "projects": "Projects"
+  },
+  "home": {
+    "hero": {
+      "badge": "Start Your Web3 Journey",
+      "title": "Learn",
+      "titleHighlight": "Web3 Development",
+      "description": "From blockchain fundamentals to full-stack DApp development, follow a structured learning path to master Web3 skills",
+      "startBtn": "Start Learning",
+      "progressBtn": "View Progress"
+    },
+    "stats": {
+      "modules": "Learning Modules",
+      "hours": "Learning Hours",
+      "projects": "Practice Projects",
+      "skills": "Core Skills"
+    },
+    "features": {
+      "title": "Why Choose This Learning Path",
+      "subtitle": "A Web3 transition guide designed for Web2 developers",
+      "structured": {
+        "title": "Structured Learning",
+        "description": "From basics to advanced, a progressive learning path ensuring a complete knowledge system"
+      },
+      "practical": {
+        "title": "Practice-Driven",
+        "description": "Hands-on projects at each stage, learn by doing to quickly master core skills"
+      },
+      "progress": {
+        "title": "Progress Tracking",
+        "description": "Visual learning progress, clear understanding of learning status, maintaining motivation"
+      },
+      "community": {
+        "title": "Cutting-Edge Tech",
+        "description": "Keep up with Web3 industry development, continuously updated with latest technologies and best practices"
+      }
+    },
+    "modules": {
+      "title": "Learning Modules Overview",
+      "subtitle": "Four stages to systematically master Web3 development",
+      "foundation": {
+        "title": "Foundation",
+        "description": "Blockchain principles, Ethereum ecosystem, cryptography basics",
+        "topics": ["Blockchain Basics", "Ethereum Principles", "Web3 Ecosystem Overview"]
+      },
+      "development": {
+        "title": "Development",
+        "description": "Solidity smart contracts, development toolchain, frontend integration",
+        "topics": ["Solidity Programming", "Contract Security", "Dev Toolchain", "Frontend Integration"]
+      },
+      "advanced": {
+        "title": "Advanced",
+        "description": "DeFi protocols, NFT development, Layer2 solutions",
+        "topics": ["DeFi Protocol Dev", "NFT Development", "Layer2 Development", "Contract Upgrades"]
+      },
+      "expert": {
+        "title": "Expert",
+        "description": "MEV, cross-chain development, ZK applications",
+        "topics": ["MEV & Arbitrage", "Cross-chain Dev", "ZK Applications"]
+      }
+    },
+    "cta": {
+      "title": "Ready to Start?",
+      "description": "Begin your Web3 learning journey now, systematically master blockchain development skills",
+      "button": "Get Started"
+    }
+  },
+  "content": {
+    "title": "Learning Content",
+    "subtitle": "Systematic Web3 knowledge system",
+    "searchPlaceholder": "Search learning content...",
+    "filterAll": "All",
+    "filterFoundation": "Foundation",
+    "filterDevelopment": "Development",
+    "filterAdvanced": "Advanced",
+    "filterExpert": "Expert",
+    "hours": "hours",
+    "topics": "topics",
+    "status": {
+      "notStarted": "Not Started",
+      "inProgress": "In Progress",
+      "completed": "Completed",
+      "mastered": "Mastered"
+    },
+    "startLearning": "Start Learning",
+    "continueLearning": "Continue",
+    "review": "Review"
+  },
+  "roadmap": {
+    "title": "Learning Roadmap",
+    "subtitle": "A clear learning path to help you grow efficiently",
+    "phase": "Phase",
+    "milestone": "Milestone",
+    "duration": "Suggested Duration",
+    "months": "months",
+    "current": "Current Phase",
+    "completed": "Completed",
+    "locked": "Locked",
+    "phases": {
+      "phase1": {
+        "title": "Web3 Introduction",
+        "description": "Build blockchain fundamentals, complete your first on-chain interaction",
+        "milestone": "Complete first on-chain transaction",
+        "items": ["Blockchain fundamentals", "Wallet usage & on-chain interaction", "Ethereum ecosystem overview"]
+      },
+      "phase2": {
+        "title": "Smart Contract Development",
+        "description": "Master Solidity programming, independently develop and deploy smart contracts",
+        "milestone": "Deploy first contract to testnet",
+        "items": ["Solidity syntax & programming", "Hardhat/Foundry toolchain", "Contract testing & deployment"]
+      },
+      "phase3": {
+        "title": "Full-Stack DApp Development",
+        "description": "Frontend-backend integration, build complete decentralized applications",
+        "milestone": "Complete first full DApp",
+        "items": ["Frontend Web3 integration", "Contract interaction development", "UX optimization"]
+      },
+      "phase4": {
+        "title": "Professional Specialization",
+        "description": "Choose a professional direction for in-depth learning, become a domain expert",
+        "milestone": "Contribute to open source or launch independent product",
+        "items": ["Choose direction: DeFi / NFT / Infrastructure", "Security audit skills", "Performance optimization"]
+      }
+    }
+  },
+  "progress": {
+    "title": "My Learning Progress",
+    "subtitle": "Track your learning achievements",
+    "overview": {
+      "title": "Learning Overview",
+      "totalProgress": "Total Progress",
+      "completedModules": "Completed Modules",
+      "learningHours": "Learning Hours",
+      "currentStreak": "Current Streak"
+    },
+    "skills": {
+      "title": "Skills Radar",
+      "blockchain": "Blockchain Basics",
+      "solidity": "Solidity",
+      "frontend": "Frontend Integration",
+      "security": "Security Audit",
+      "defi": "DeFi",
+      "nft": "NFT"
+    },
+    "recent": {
+      "title": "Recent Learning",
+      "noRecord": "No learning records yet",
+      "startNow": "Start learning now"
+    },
+    "achievements": {
+      "title": "Achievements",
+      "locked": "Locked",
+      "firstStep": {
+        "title": "First Step",
+        "description": "Complete first learning module"
+      },
+      "solidityMaster": {
+        "title": "Solidity Master",
+        "description": "Complete all Solidity content"
+      },
+      "fullStack": {
+        "title": "Full-Stack Developer",
+        "description": "Complete a full DApp project"
+      },
+      "securityExpert": {
+        "title": "Security Expert",
+        "description": "Complete contract security module"
+      }
+    },
+    "days": "days"
+  },
+  "projects": {
+    "title": "Practice Projects",
+    "subtitle": "Consolidate your learning through practice",
+    "difficulty": {
+      "beginner": "Beginner",
+      "elementary": "Elementary",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "expert": "Expert"
+    },
+    "filterAll": "All Projects",
+    "skills": "Required Skills",
+    "viewDetail": "View Details",
+    "startProject": "Start Project",
+    "status": {
+      "notStarted": "Not Started",
+      "inProgress": "In Progress",
+      "completed": "Completed"
+    },
+    "list": {
+      "erc20": {
+        "title": "ERC-20 Token",
+        "description": "Create your first ERC-20 token contract",
+        "skills": ["Solidity Basics", "Contract Deployment"]
+      },
+      "voting": {
+        "title": "Voting Contract",
+        "description": "Implement a simple on-chain voting system",
+        "skills": ["State Management", "Events"]
+      },
+      "nftMint": {
+        "title": "NFT Mint Page",
+        "description": "Build an NFT minting frontend page",
+        "skills": ["ERC-721", "Frontend Integration"]
+      },
+      "multisig": {
+        "title": "Multisig Wallet",
+        "description": "Implement a multi-signature wallet contract",
+        "skills": ["Access Control", "Security"]
+      },
+      "dex": {
+        "title": "DEX Trading Interface",
+        "description": "Build a decentralized exchange frontend",
+        "skills": ["AMM Understanding", "Liquidity"]
+      },
+      "nftMarket": {
+        "title": "NFT Marketplace",
+        "description": "Complete NFT trading marketplace",
+        "skills": ["Auction", "Royalties"]
+      },
+      "lending": {
+        "title": "Lending Protocol",
+        "description": "Implement a DeFi lending protocol",
+        "skills": ["Interest Rate Model", "Liquidation"]
+      },
+      "dao": {
+        "title": "DAO Governance System",
+        "description": "Complete DAO governance solution",
+        "skills": ["Voting", "Proposals", "Timelock"]
+      },
+      "bridge": {
+        "title": "Cross-chain Bridge",
+        "description": "Implement cross-chain asset transfer",
+        "skills": ["Cross-chain Messaging", "Security"]
+      }
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "viewAll": "View All",
+    "learnMore": "Learn More"
+  },
+  "footer": {
+    "description": "Systematic Web3 learning path",
+    "links": "Quick Links",
+    "resources": "Resources",
+    "docs": "Documentation",
+    "github": "GitHub",
+    "discord": "Discord Community",
+    "copyright": "Web3 Learning Journey"
+  },
+  "theme": {
+    "light": "Light Mode",
+    "dark": "Dark Mode",
+    "system": "System"
+  },
+  "modules": {
+    "blockchainBasics": {
+      "title": "Blockchain Basics",
+      "description": "Understand core blockchain concepts, including distributed systems, consensus mechanisms, and cryptography",
+      "topics": {
+        "distributedSystems": "Distributed Systems",
+        "distributedSystemsDesc": "Learn the fundamentals of distributed system design",
+        "consensusMechanisms": "Consensus Mechanisms",
+        "consensusMechanismsDesc": "PoW, PoS and other consensus algorithms compared",
+        "cryptographyBasics": "Cryptography Basics",
+        "cryptographyBasicsDesc": "Public key cryptography, digital signatures and core concepts",
+        "hashAlgorithms": "Hash Algorithms",
+        "hashAlgorithmsDesc": "SHA-256 and other hash functions explained",
+        "merkleTrees": "Merkle Trees",
+        "merkleTreesDesc": "Merkle tree structure and blockchain applications"
+      }
+    },
+    "ethereumFundamentals": {
+      "title": "Ethereum Fundamentals",
+      "description": "Deep dive into Ethereum's workings, including EVM, Gas mechanism, and account model",
+      "topics": {
+        "evm": "Ethereum Virtual Machine (EVM)",
+        "evmDesc": "EVM architecture, instruction set, and execution model",
+        "gasMechanism": "Gas Mechanism",
+        "gasMechanismDesc": "Gas calculation and optimization strategies",
+        "accountModel": "Account Model",
+        "accountModelDesc": "EOA vs contract accounts and their interactions",
+        "transactionStructure": "Transaction Structure",
+        "transactionStructureDesc": "Ethereum transaction composition and lifecycle"
+      }
+    },
+    "web3Ecosystem": {
+      "title": "Web3 Ecosystem Overview",
+      "description": "Explore the Web3 ecosystem including DeFi, NFT, DAO, and Layer2",
+      "topics": {
+        "defiOverview": "DeFi Overview",
+        "defiOverviewDesc": "Core concepts and major protocols in decentralized finance",
+        "nftOverview": "NFT Overview",
+        "nftOverviewDesc": "NFT technical standards and use cases",
+        "daoOverview": "DAO Overview",
+        "daoOverviewDesc": "Decentralized autonomous organization governance",
+        "layer2Overview": "Layer2 Overview",
+        "layer2OverviewDesc": "Ethereum scaling solutions classification and comparison"
+      }
+    },
+    "solidityProgramming": {
+      "title": "Solidity Programming",
+      "description": "Master Solidity language and learn core smart contract development skills",
+      "topics": {
+        "syntaxBasics": "Syntax Basics",
+        "syntaxBasicsDesc": "Solidity basic syntax and programming paradigms",
+        "dataTypes": "Data Types",
+        "dataTypesDesc": "Value types, reference types, and mappings",
+        "functions": "Functions",
+        "functionsDesc": "Function modifiers, visibility, and special functions",
+        "inheritance": "Inheritance",
+        "inheritanceDesc": "Contract inheritance and multiple inheritance",
+        "interfaces": "Interfaces",
+        "interfacesDesc": "Interface definitions and abstract contracts",
+        "eventsErrors": "Events & Errors",
+        "eventsErrorsDesc": "Event logging and custom error handling"
+      }
+    },
+    "contractSecurity": {
+      "title": "Contract Security",
+      "description": "Learn smart contract security best practices and prevent common vulnerabilities",
+      "topics": {
+        "reentrancy": "Reentrancy Attack",
+        "reentrancyDesc": "Reentrancy vulnerability principles and defenses",
+        "overflow": "Overflow Attack",
+        "overflowDesc": "Integer overflow issues and SafeMath usage",
+        "accessControl": "Access Control",
+        "accessControlDesc": "Permission management and role-based access",
+        "auditTools": "Audit Tools",
+        "auditToolsDesc": "Slither, Mythril and other security analysis tools"
+      }
+    },
+    "devToolchain": {
+      "title": "Development Toolchain",
+      "description": "Master modern smart contract development tools to improve efficiency",
+      "topics": {
+        "hardhat": "Hardhat",
+        "hardhatDesc": "Hardhat configuration, plugins, and workflow",
+        "foundry": "Foundry",
+        "foundryDesc": "Foundry installation, usage, and testing framework",
+        "remix": "Remix IDE",
+        "remixDesc": "Online IDE tips and debugging features",
+        "testing": "Testing",
+        "testingDesc": "Unit testing, integration testing, and fuzz testing"
+      }
+    },
+    "frontendIntegration": {
+      "title": "Frontend Integration",
+      "description": "Learn DApp frontend development and implement Web3 application interfaces",
+      "topics": {
+        "ethersViem": "Ethers.js / Viem",
+        "ethersViemDesc": "Web3 library selection and usage",
+        "wagmi": "Wagmi",
+        "wagmiDesc": "React Hooks style Web3 development",
+        "rainbowkit": "RainbowKit",
+        "rainbowkitDesc": "Wallet connection component integration",
+        "walletConnection": "Wallet Connection",
+        "walletConnectionDesc": "Multi-wallet support and connection state management"
+      }
+    },
+    "defiDevelopment": {
+      "title": "DeFi Protocol Development",
+      "description": "Deep dive into DeFi protocol design and implementation",
+      "topics": {
+        "amm": "Automated Market Maker (AMM)",
+        "ammDesc": "Uniswap and AMM protocol principles",
+        "lendingProtocol": "Lending Protocol",
+        "lendingProtocolDesc": "Aave, Compound architecture analysis",
+        "oracleIntegration": "Oracle Integration",
+        "oracleIntegrationDesc": "Chainlink and oracle usage methods",
+        "yieldStrategies": "Yield Strategies",
+        "yieldStrategiesDesc": "Liquidity mining and yield aggregators"
+      }
+    },
+    "nftDevelopment": {
+      "title": "NFT Development",
+      "description": "Learn NFT standards and marketplace development",
+      "topics": {
+        "erc721": "ERC-721",
+        "erc721Desc": "NFT standard implementation and extensions",
+        "erc1155": "ERC-1155",
+        "erc1155Desc": "Multi-token standard use cases",
+        "metadata": "Metadata",
+        "metadataDesc": "NFT metadata storage and display",
+        "marketplace": "Marketplace Development",
+        "marketplaceDesc": "NFT marketplace core features"
+      }
+    },
+    "layer2Development": {
+      "title": "Layer2 Development",
+      "description": "Learn Layer2 solution development and deployment",
+      "topics": {
+        "optimism": "Optimism",
+        "optimismDesc": "Optimistic Rollup development guide",
+        "arbitrum": "Arbitrum",
+        "arbitrumDesc": "Arbitrum ecosystem and development tools",
+        "zksync": "zkSync",
+        "zksyncDesc": "ZK Rollup development introduction"
+      }
+    },
+    "contractUpgrades": {
+      "title": "Contract Upgrades",
+      "description": "Master smart contract upgrade patterns and best practices",
+      "topics": {
+        "proxyPatterns": "Proxy Patterns",
+        "proxyPatternsDesc": "Transparent and UUPS proxy implementation",
+        "diamondPattern": "Diamond Pattern",
+        "diamondPatternDesc": "EIP-2535 multi-facet proxy standard",
+        "upgradeSafety": "Upgrade Safety",
+        "upgradeSafetyDesc": "Storage layout and upgrade safety checks"
+      }
+    },
+    "mevArbitrage": {
+      "title": "MEV & Arbitrage",
+      "description": "Understand MEV mechanisms and protection strategies",
+      "topics": {
+        "flashbots": "Flashbots",
+        "flashbotsDesc": "Flashbots usage and MEV auctions",
+        "mevProtection": "MEV Protection",
+        "mevProtectionDesc": "Protecting transactions from MEV attacks",
+        "sandwichAttacks": "Sandwich Attacks",
+        "sandwichAttacksDesc": "Sandwich attack principles and prevention"
+      }
+    },
+    "crosschainDevelopment": {
+      "title": "Cross-chain Development",
+      "description": "Learn cross-chain communication and asset bridging",
+      "topics": {
+        "bridgeProtocols": "Bridge Protocols",
+        "bridgeProtocolsDesc": "Cross-chain bridge architecture and security",
+        "crosschainMessaging": "Cross-chain Messaging",
+        "crosschainMessagingDesc": "LayerZero, Axelar and other protocols",
+        "securityConsiderations": "Security Considerations",
+        "securityConsiderationsDesc": "Cross-chain development security best practices"
+      }
+    },
+    "zkApplications": {
+      "title": "ZK Application Development",
+      "description": "Introduction to zero-knowledge proof application development",
+      "topics": {
+        "zkBasics": "ZK Basics",
+        "zkBasicsDesc": "Zero-knowledge proof fundamentals",
+        "circom": "Circom",
+        "circomDesc": "Circom circuit development introduction",
+        "zkUseCases": "Use Cases",
+        "zkUseCasesDesc": "ZK applications in privacy and scaling",
+        "zkRollups": "ZK Rollups",
+        "zkRollupsDesc": "How ZK Rollups work"
+      }
+    }
+  },
+  "auth": {
+    "login": "Login",
+    "signup": "Sign Up",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "loading": "Processing...",
+    "forgotPassword": "Forgot password?",
+    "createAccount": "Create account",
+    "haveAccount": "Already have an account?",
+    "continueWithGithub": "Continue with GitHub",
+    "continueWithGoogle": "Continue with Google",
+    "orContinueWith": "or continue with email",
+    "checkEmail": "Check your email",
+    "confirmationEmailSent": "We've sent a confirmation email to your inbox. Please click the link to complete registration.",
+    "resetEmailSent": "Password reset email has been sent. Please check your inbox.",
+    "backToLogin": "Back to login",
+    "enterEmail": "Please enter your email address first",
+    "passwordMismatch": "Passwords do not match",
+    "passwordTooShort": "Password must be at least 6 characters",
+    "myProgress": "My Progress",
+    "loginToTrack": "Login to save your progress",
+    "loginBtn": "Login / Sign Up"
+  },
+  "achievements": {
+    "title": "Achievements",
+    "unlocked": "Unlocked",
+    "locked": "Locked",
+    "firstStep": {
+      "title": "First Step",
+      "description": "Complete your first topic"
+    },
+    "moduleMaster": {
+      "title": "Module Master",
+      "description": "Complete your first learning module"
+    },
+    "streak7": {
+      "title": "7-Day Streak",
+      "description": "Learn for 7 consecutive days"
+    },
+    "streak30": {
+      "title": "Monthly Champion",
+      "description": "Learn for 30 consecutive days"
+    },
+    "halfWay": {
+      "title": "Halfway There",
+      "description": "Complete 50% of all topics"
+    },
+    "fullStack": {
+      "title": "Full Stack Dev",
+      "description": "Complete your first project"
+    },
+    "securityExpert": {
+      "title": "Security Expert",
+      "description": "Complete the Contract Security module"
+    },
+    "defiExplorer": {
+      "title": "DeFi Explorer",
+      "description": "Complete the DeFi Development module"
+    },
+    "nftCreator": {
+      "title": "NFT Creator",
+      "description": "Complete the NFT Development module"
+    },
+    "zkPioneer": {
+      "title": "ZK Pioneer",
+      "description": "Complete the ZK Applications module"
+    },
+    "completionist": {
+      "title": "Completionist",
+      "description": "Complete all topics"
+    }
+  },
+  "stats": {
+    "streak": "Learning Streak",
+    "days": "days",
+    "longestStreak": "Longest Streak",
+    "todayLearned": "Studied Today",
+    "keepItUp": "Keep it up!"
+  },
+  "notes": {
+    "myNotes": "My Notes",
+    "tabs": {
+      "write": "Write",
+      "preview": "Preview"
+    },
+    "toolbar": {
+      "bold": "Bold",
+      "italic": "Italic",
+      "code": "Inline Code",
+      "codeBlock": "Code Block",
+      "heading": "Heading",
+      "quote": "Quote",
+      "list": "Bullet List",
+      "orderedList": "Numbered List",
+      "link": "Link"
+    },
+    "placeholder": "Start writing notes... Markdown supported",
+    "emptyPreview": "Nothing to preview. Start writing something!",
+    "supportMarkdown": "Markdown supported",
+    "characters": "characters",
+    "words": "words",
+    "titlePlaceholder": "Note title (optional)",
+    "contentPlaceholder": "Write your learning notes here...",
+    "tags": "Tags",
+    "addTag": "Add tag...",
+    "add": "Add",
+    "pin": "Pin",
+    "pinned": "Pinned",
+    "delete": "Delete",
+    "save": "Save",
+    "saving": "Saving...",
+    "saved": "Saved",
+    "unsaved": "Unsaved",
+    "lastSaved": "Last saved",
+    "confirmDelete": "Are you sure you want to delete this note? This action cannot be undone.",
+    "loginToNote": "Login to save your learning notes",
+    "topicNotes": "Topic Notes",
+    "moduleNotes": "Module Notes",
+    "projectNotes": "Project Notes"
+  },
+  "report": {
+    "exportPdf": "Export PDF Report",
+    "exporting": "Exporting...",
+    "exportSuccess": "Report downloaded",
+    "exportError": "Export failed, please try again",
+    "loginRequired": "Please login to export report"
+  },
+  "ai": {
+    "title": "AI Learning Assistant",
+    "subtitle": "Web3 Expert Q&A",
+    "welcome": "Hello! I'm your Web3 learning assistant",
+    "welcomeDesc": "I can help you with questions about blockchain, smart contracts, DeFi, NFT, and other Web3 topics",
+    "quickPrompts": "Quick prompts",
+    "inputPlaceholder": "Type your question...",
+    "thinking": "Thinking...",
+    "poweredBy": "Powered by AI",
+    "error": "An error occurred, please try again"
+  },
+  "codeReview": {
+    "title": "Smart Code Audit",
+    "subtitle": "AI-powered contract security analysis",
+    "startReview": "Start Review",
+    "reviewing": "Reviewing...",
+    "codePlaceholder": "Paste your smart contract code...",
+    "summary": "Summary",
+    "issues": "Issues Found",
+    "highlights": "Code Highlights",
+    "recommendations": "Recommendations",
+    "noResults": "Paste your code and click \"Start Review\" to see analysis results",
+    "error": "Review failed, please try again",
+    "scores": {
+      "security": "Security",
+      "gasEfficiency": "Gas Efficiency",
+      "codeQuality": "Code Quality",
+      "overall": "Overall"
+    }
+  },
+  "certificate": {
+    "title": "NFT Certificates",
+    "subtitle": "Mint your learning achievements as on-chain credentials",
+    "connectWallet": "Connect Wallet",
+    "connecting": "Connecting...",
+    "disconnect": "Disconnect",
+    "certificateOf": "Certificate of",
+    "awardedTo": "Awarded to",
+    "minted": "Minted",
+    "completion": "Completion",
+    "mintNft": "Mint NFT",
+    "minting": "Minting...",
+    "alreadyMinted": "Already Minted",
+    "completeToUnlock": "Complete to unlock",
+    "totalCerts": "Total Certs",
+    "eligibleToMint": "Eligible",
+    "mintedCount": "Minted",
+    "filterAll": "All",
+    "filterEligible": "Eligible",
+    "filterMinted": "Minted",
+    "walletNotConnected": "Wallet Not Connected",
+    "connectToMint": "Connect your wallet to mint NFT certificates",
+    "connectWalletFirst": "Please connect your wallet first",
+    "mintSuccess": "Minted successfully!",
+    "mintError": "Minting failed, please try again",
+    "noCertificates": "No certificates yet",
+    "loginRequired": "Login to View Certificates",
+    "loginRequiredDesc": "Login to view and mint your learning certificates",
+    "aboutNftCerts": "About NFT Certificates",
+    "whatIsNftCert": "What are NFT Certificates?",
+    "whatIsNftCertDesc": "NFT certificates are learning achievement credentials stored on the blockchain - immutable, permanent, and verifiable by anyone.",
+    "howToMint": "How to Mint?",
+    "howToMintDesc": "After completing the required learning content, connect your wallet (like MetaMask) and click the mint button to store your certificate on-chain."
+  }
+}

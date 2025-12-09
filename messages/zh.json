@@ -1,0 +1,667 @@
+{
+  "metadata": {
+    "title": "Web3 学习之路",
+    "description": "系统化的 Web3 学习路径，从入门到精通"
+  },
+  "nav": {
+    "home": "首页",
+    "content": "学习内容",
+    "roadmap": "学习路线",
+    "progress": "我的进度",
+    "projects": "实战项目"
+  },
+  "home": {
+    "hero": {
+      "badge": "开启 Web3 之旅",
+      "title": "系统化学习",
+      "titleHighlight": "Web3 开发",
+      "description": "从区块链基础到 DApp 全栈开发，跟随结构化的学习路径，逐步掌握 Web3 核心技能",
+      "startBtn": "开始学习",
+      "progressBtn": "查看进度"
+    },
+    "stats": {
+      "modules": "学习模块",
+      "hours": "学习时长",
+      "projects": "实战项目",
+      "skills": "核心技能"
+    },
+    "features": {
+      "title": "为什么选择这个学习路径",
+      "subtitle": "专为 Web2 开发者设计的 Web3 转型指南",
+      "structured": {
+        "title": "结构化学习",
+        "description": "从基础到高级，循序渐进的学习路径，确保知识体系完整"
+      },
+      "practical": {
+        "title": "实战驱动",
+        "description": "每个阶段配套实战项目，边学边做，快速掌握核心技能"
+      },
+      "progress": {
+        "title": "进度追踪",
+        "description": "可视化学习进度，清晰了解学习状态，保持学习动力"
+      },
+      "community": {
+        "title": "前沿技术",
+        "description": "紧跟 Web3 行业发展，持续更新最新技术和最佳实践"
+      }
+    },
+    "modules": {
+      "title": "学习模块概览",
+      "subtitle": "四大阶段，系统掌握 Web3 开发技能",
+      "foundation": {
+        "title": "基础层",
+        "description": "区块链原理、以太坊生态、密码学基础",
+        "topics": ["区块链基础", "以太坊原理", "Web3 生态概览"]
+      },
+      "development": {
+        "title": "开发层",
+        "description": "Solidity 智能合约、开发工具链、前端集成",
+        "topics": ["Solidity 编程", "合约安全", "开发工具链", "前端集成"]
+      },
+      "advanced": {
+        "title": "进阶层",
+        "description": "DeFi 协议、NFT 开发、Layer2 方案",
+        "topics": ["DeFi 协议开发", "NFT 开发", "Layer2 开发", "合约升级"]
+      },
+      "expert": {
+        "title": "专家层",
+        "description": "MEV、跨链开发、ZK 应用",
+        "topics": ["MEV 与套利", "跨链开发", "ZK 应用开发"]
+      }
+    },
+    "cta": {
+      "title": "准备好开始了吗？",
+      "description": "立即开启你的 Web3 学习之旅，系统化掌握区块链开发技能",
+      "button": "立即开始"
+    }
+  },
+  "content": {
+    "title": "学习内容",
+    "subtitle": "系统化的 Web3 知识体系",
+    "searchPlaceholder": "搜索学习内容...",
+    "filterAll": "全部",
+    "filterFoundation": "基础层",
+    "filterDevelopment": "开发层",
+    "filterAdvanced": "进阶层",
+    "filterExpert": "专家层",
+    "hours": "小时",
+    "topics": "知识点",
+    "status": {
+      "notStarted": "未开始",
+      "inProgress": "进行中",
+      "completed": "已完成",
+      "mastered": "已精通"
+    },
+    "startLearning": "开始学习",
+    "continueLearning": "继续学习",
+    "review": "复习巩固"
+  },
+  "roadmap": {
+    "title": "学习路线图",
+    "subtitle": "清晰的学习路径，助你高效成长",
+    "phase": "阶段",
+    "milestone": "里程碑",
+    "duration": "建议时长",
+    "months": "个月",
+    "current": "当前阶段",
+    "completed": "已完成",
+    "locked": "未解锁",
+    "phases": {
+      "phase1": {
+        "title": "Web3 入门",
+        "description": "建立区块链基础认知，完成第一笔链上交互",
+        "milestone": "完成第一笔链上交互",
+        "items": ["区块链基础概念", "钱包使用与链上交互", "以太坊生态了解"]
+      },
+      "phase2": {
+        "title": "智能合约开发",
+        "description": "掌握 Solidity 编程，能独立开发和部署智能合约",
+        "milestone": "部署第一个合约到测试网",
+        "items": ["Solidity 语法与编程", "Hardhat/Foundry 工具链", "合约测试与部署"]
+      },
+      "phase3": {
+        "title": "DApp 全栈开发",
+        "description": "前后端集成，打造完整的去中心化应用",
+        "milestone": "完成第一个完整 DApp",
+        "items": ["前端 Web3 集成", "合约交互开发", "用户体验优化"]
+      },
+      "phase4": {
+        "title": "专业深化",
+        "description": "选择专业方向深入学习，成为领域专家",
+        "milestone": "参与开源项目或独立上线产品",
+        "items": ["选择方向: DeFi / NFT / 基础设施", "安全审计能力", "性能优化"]
+      }
+    }
+  },
+  "progress": {
+    "title": "我的学习进度",
+    "subtitle": "追踪你的学习成就",
+    "overview": {
+      "title": "学习概览",
+      "totalProgress": "总体进度",
+      "completedModules": "已完成模块",
+      "learningHours": "学习时长",
+      "currentStreak": "连续学习"
+    },
+    "skills": {
+      "title": "技能雷达",
+      "blockchain": "区块链基础",
+      "solidity": "Solidity",
+      "frontend": "前端集成",
+      "security": "安全审计",
+      "defi": "DeFi",
+      "nft": "NFT"
+    },
+    "recent": {
+      "title": "最近学习",
+      "noRecord": "暂无学习记录",
+      "startNow": "现在开始学习"
+    },
+    "achievements": {
+      "title": "学习成就",
+      "locked": "未解锁",
+      "firstStep": {
+        "title": "迈出第一步",
+        "description": "完成第一个学习模块"
+      },
+      "solidityMaster": {
+        "title": "Solidity 大师",
+        "description": "完成所有 Solidity 相关内容"
+      },
+      "fullStack": {
+        "title": "全栈开发者",
+        "description": "完成一个完整 DApp 项目"
+      },
+      "securityExpert": {
+        "title": "安全专家",
+        "description": "完成合约安全模块"
+      }
+    },
+    "days": "天"
+  },
+  "projects": {
+    "title": "实战项目",
+    "subtitle": "通过实践巩固所学知识",
+    "difficulty": {
+      "beginner": "入门",
+      "elementary": "初级",
+      "intermediate": "中级",
+      "advanced": "高级",
+      "expert": "专家"
+    },
+    "filterAll": "全部项目",
+    "skills": "涉及技能",
+    "viewDetail": "查看详情",
+    "startProject": "开始项目",
+    "status": {
+      "notStarted": "未开始",
+      "inProgress": "进行中",
+      "completed": "已完成"
+    },
+    "list": {
+      "erc20": {
+        "title": "ERC-20 代币",
+        "description": "创建你的第一个 ERC-20 代币合约",
+        "skills": ["Solidity 基础", "合约部署"]
+      },
+      "voting": {
+        "title": "投票合约",
+        "description": "实现一个简单的链上投票系统",
+        "skills": ["状态管理", "事件"]
+      },
+      "nftMint": {
+        "title": "NFT Mint 页面",
+        "description": "构建 NFT 铸造前端页面",
+        "skills": ["ERC-721", "前端集成"]
+      },
+      "multisig": {
+        "title": "多签钱包",
+        "description": "实现多签名钱包合约",
+        "skills": ["权限控制", "安全"]
+      },
+      "dex": {
+        "title": "DEX 交易界面",
+        "description": "构建去中心化交易所前端",
+        "skills": ["AMM 理解", "流动性"]
+      },
+      "nftMarket": {
+        "title": "NFT 市场",
+        "description": "完整的 NFT 交易市场",
+        "skills": ["拍卖", "版税"]
+      },
+      "lending": {
+        "title": "借贷协议",
+        "description": "实现 DeFi 借贷协议",
+        "skills": ["利率模型", "清算"]
+      },
+      "dao": {
+        "title": "DAO 治理系统",
+        "description": "完整的 DAO 治理方案",
+        "skills": ["投票", "提案", "时间锁"]
+      },
+      "bridge": {
+        "title": "跨链桥",
+        "description": "实现资产跨链转移",
+        "skills": ["跨链消息", "安全"]
+      }
+    }
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "出错了",
+    "retry": "重试",
+    "save": "保存",
+    "cancel": "取消",
+    "confirm": "确认",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "viewAll": "查看全部",
+    "learnMore": "了解更多"
+  },
+  "footer": {
+    "description": "系统化的 Web3 学习路径",
+    "links": "快速链接",
+    "resources": "学习资源",
+    "docs": "官方文档",
+    "github": "GitHub",
+    "discord": "Discord 社区",
+    "copyright": "Web3 学习之路"
+  },
+  "theme": {
+    "light": "浅色模式",
+    "dark": "深色模式",
+    "system": "跟随系统"
+  },
+  "modules": {
+    "blockchainBasics": {
+      "title": "区块链基础",
+      "description": "理解区块链核心概念，包括分布式系统、共识机制和密码学基础",
+      "topics": {
+        "distributedSystems": "分布式系统",
+        "distributedSystemsDesc": "了解分布式系统的基本原理和设计模式",
+        "consensusMechanisms": "共识机制",
+        "consensusMechanismsDesc": "PoW、PoS等共识算法的原理和对比",
+        "cryptographyBasics": "密码学基础",
+        "cryptographyBasicsDesc": "公钥密码学、数字签名等核心概念",
+        "hashAlgorithms": "哈希算法",
+        "hashAlgorithmsDesc": "SHA-256等哈希函数的原理和应用",
+        "merkleTrees": "默克尔树",
+        "merkleTreesDesc": "默克尔树的结构和在区块链中的应用"
+      }
+    },
+    "ethereumFundamentals": {
+      "title": "以太坊基础",
+      "description": "深入理解以太坊的工作原理，包括EVM、Gas机制和账户模型",
+      "topics": {
+        "evm": "以太坊虚拟机 (EVM)",
+        "evmDesc": "EVM的架构、指令集和执行模型",
+        "gasMechanism": "Gas 机制",
+        "gasMechanismDesc": "Gas的计算方式和优化策略",
+        "accountModel": "账户模型",
+        "accountModelDesc": "EOA和合约账户的区别与交互",
+        "transactionStructure": "交易结构",
+        "transactionStructureDesc": "以太坊交易的组成和生命周期"
+      }
+    },
+    "web3Ecosystem": {
+      "title": "Web3 生态概览",
+      "description": "了解Web3生态系统，包括DeFi、NFT、DAO和Layer2",
+      "topics": {
+        "defiOverview": "DeFi 概览",
+        "defiOverviewDesc": "去中心化金融的核心概念和主要协议",
+        "nftOverview": "NFT 概览",
+        "nftOverviewDesc": "NFT的技术标准和应用场景",
+        "daoOverview": "DAO 概览",
+        "daoOverviewDesc": "去中心化自治组织的治理模式",
+        "layer2Overview": "Layer2 概览",
+        "layer2OverviewDesc": "以太坊扩容方案的分类和对比"
+      }
+    },
+    "solidityProgramming": {
+      "title": "Solidity 编程",
+      "description": "掌握Solidity语言，学习智能合约开发的核心技能",
+      "topics": {
+        "syntaxBasics": "语法基础",
+        "syntaxBasicsDesc": "Solidity的基本语法和编程范式",
+        "dataTypes": "数据类型",
+        "dataTypesDesc": "值类型、引用类型和映射的使用",
+        "functions": "函数",
+        "functionsDesc": "函数修饰符、可见性和特殊函数",
+        "inheritance": "继承",
+        "inheritanceDesc": "合约继承和多重继承的实现",
+        "interfaces": "接口",
+        "interfacesDesc": "接口定义和抽象合约",
+        "eventsErrors": "事件与错误",
+        "eventsErrorsDesc": "事件日志和自定义错误处理"
+      }
+    },
+    "contractSecurity": {
+      "title": "合约安全",
+      "description": "学习智能合约安全最佳实践，防范常见漏洞",
+      "topics": {
+        "reentrancy": "重入攻击",
+        "reentrancyDesc": "重入漏洞的原理和防御方法",
+        "overflow": "溢出攻击",
+        "overflowDesc": "整数溢出问题和SafeMath的使用",
+        "accessControl": "访问控制",
+        "accessControlDesc": "权限管理和多角色访问控制",
+        "auditTools": "审计工具",
+        "auditToolsDesc": "Slither、Mythril等安全分析工具"
+      }
+    },
+    "devToolchain": {
+      "title": "开发工具链",
+      "description": "掌握现代智能合约开发工具，提升开发效率",
+      "topics": {
+        "hardhat": "Hardhat",
+        "hardhatDesc": "Hardhat的配置、插件和工作流程",
+        "foundry": "Foundry",
+        "foundryDesc": "Foundry的安装、使用和测试框架",
+        "remix": "Remix IDE",
+        "remixDesc": "在线IDE的使用技巧和调试功能",
+        "testing": "测试",
+        "testingDesc": "单元测试、集成测试和模糊测试"
+      }
+    },
+    "frontendIntegration": {
+      "title": "前端集成",
+      "description": "学习DApp前端开发，实现Web3应用的用户界面",
+      "topics": {
+        "ethersViem": "Ethers.js / Viem",
+        "ethersViemDesc": "Web3库的选择和使用方法",
+        "wagmi": "Wagmi",
+        "wagmiDesc": "React Hooks风格的Web3开发",
+        "rainbowkit": "RainbowKit",
+        "rainbowkitDesc": "钱包连接组件的集成和自定义",
+        "walletConnection": "钱包连接",
+        "walletConnectionDesc": "多钱包支持和连接状态管理"
+      }
+    },
+    "defiDevelopment": {
+      "title": "DeFi 协议开发",
+      "description": "深入学习DeFi协议的设计和实现",
+      "topics": {
+        "amm": "自动做市商 (AMM)",
+        "ammDesc": "Uniswap等AMM协议的原理和实现",
+        "lendingProtocol": "借贷协议",
+        "lendingProtocolDesc": "Aave、Compound的架构分析",
+        "oracleIntegration": "预言机集成",
+        "oracleIntegrationDesc": "Chainlink等预言机的使用方法",
+        "yieldStrategies": "收益策略",
+        "yieldStrategiesDesc": "流动性挖矿和收益聚合器"
+      }
+    },
+    "nftDevelopment": {
+      "title": "NFT 开发",
+      "description": "学习NFT标准和市场开发",
+      "topics": {
+        "erc721": "ERC-721",
+        "erc721Desc": "NFT标准的实现和扩展",
+        "erc1155": "ERC-1155",
+        "erc1155Desc": "多代币标准的应用场景",
+        "metadata": "元数据",
+        "metadataDesc": "NFT元数据的存储和展示",
+        "marketplace": "市场开发",
+        "marketplaceDesc": "NFT交易市场的核心功能"
+      }
+    },
+    "layer2Development": {
+      "title": "Layer2 开发",
+      "description": "学习Layer2解决方案的开发和部署",
+      "topics": {
+        "optimism": "Optimism",
+        "optimismDesc": "Optimistic Rollup的开发指南",
+        "arbitrum": "Arbitrum",
+        "arbitrumDesc": "Arbitrum生态和开发工具",
+        "zksync": "zkSync",
+        "zksyncDesc": "ZK Rollup的开发入门"
+      }
+    },
+    "contractUpgrades": {
+      "title": "合约升级",
+      "description": "掌握智能合约的升级模式和最佳实践",
+      "topics": {
+        "proxyPatterns": "代理模式",
+        "proxyPatternsDesc": "透明代理和UUPS代理的实现",
+        "diamondPattern": "钻石模式",
+        "diamondPatternDesc": "EIP-2535多面代理标准",
+        "upgradeSafety": "升级安全",
+        "upgradeSafetyDesc": "存储布局和升级安全检查"
+      }
+    },
+    "mevArbitrage": {
+      "title": "MEV 与套利",
+      "description": "理解MEV机制和保护策略",
+      "topics": {
+        "flashbots": "Flashbots",
+        "flashbotsDesc": "Flashbots的使用和MEV拍卖",
+        "mevProtection": "MEV 保护",
+        "mevProtectionDesc": "保护交易免受MEV攻击",
+        "sandwichAttacks": "三明治攻击",
+        "sandwichAttacksDesc": "三明治攻击的原理和防护"
+      }
+    },
+    "crosschainDevelopment": {
+      "title": "跨链开发",
+      "description": "学习跨链通信和资产桥接",
+      "topics": {
+        "bridgeProtocols": "桥接协议",
+        "bridgeProtocolsDesc": "跨链桥的架构和安全考量",
+        "crosschainMessaging": "跨链消息",
+        "crosschainMessagingDesc": "LayerZero、Axelar等协议",
+        "securityConsiderations": "安全考量",
+        "securityConsiderationsDesc": "跨链开发的安全最佳实践"
+      }
+    },
+    "zkApplications": {
+      "title": "ZK 应用开发",
+      "description": "零知识证明的应用开发入门",
+      "topics": {
+        "zkBasics": "ZK 基础",
+        "zkBasicsDesc": "零知识证明的基本概念",
+        "circom": "Circom",
+        "circomDesc": "Circom电路开发入门",
+        "zkUseCases": "应用场景",
+        "zkUseCasesDesc": "ZK在隐私和扩容中的应用",
+        "zkRollups": "ZK Rollups",
+        "zkRollupsDesc": "ZK Rollup的工作原理"
+      }
+    }
+  },
+  "auth": {
+    "login": "登录",
+    "signup": "注册",
+    "logout": "退出登录",
+    "email": "邮箱",
+    "password": "密码",
+    "confirmPassword": "确认密码",
+    "name": "昵称",
+    "namePlaceholder": "你的昵称",
+    "loading": "处理中...",
+    "forgotPassword": "忘记密码?",
+    "createAccount": "创建账号",
+    "haveAccount": "已有账号?",
+    "continueWithGithub": "使用 GitHub 登录",
+    "continueWithGoogle": "使用 Google 登录",
+    "orContinueWith": "或使用邮箱",
+    "checkEmail": "请查收邮件",
+    "confirmationEmailSent": "我们已发送确认邮件到你的邮箱，请点击链接完成注册。",
+    "resetEmailSent": "重置密码的邮件已发送，请查收。",
+    "backToLogin": "返回登录",
+    "enterEmail": "请先输入邮箱地址",
+    "passwordMismatch": "两次输入的密码不一致",
+    "passwordTooShort": "密码至少需要 6 位",
+    "myProgress": "我的进度",
+    "loginToTrack": "登录以保存学习进度",
+    "loginBtn": "登录 / 注册"
+  },
+  "achievements": {
+    "title": "成就",
+    "unlocked": "已解锁",
+    "locked": "未解锁",
+    "firstStep": {
+      "title": "第一步",
+      "description": "完成第一个知识点"
+    },
+    "moduleMaster": {
+      "title": "模块专家",
+      "description": "完成第一个学习模块"
+    },
+    "streak7": {
+      "title": "七日连胜",
+      "description": "连续学习 7 天"
+    },
+    "streak30": {
+      "title": "坚持一个月",
+      "description": "连续学习 30 天"
+    },
+    "halfWay": {
+      "title": "半程达人",
+      "description": "完成 50% 的知识点"
+    },
+    "fullStack": {
+      "title": "全栈开发者",
+      "description": "完成第一个实战项目"
+    },
+    "securityExpert": {
+      "title": "安全专家",
+      "description": "完成合约安全模块"
+    },
+    "defiExplorer": {
+      "title": "DeFi 探索者",
+      "description": "完成 DeFi 开发模块"
+    },
+    "nftCreator": {
+      "title": "NFT 创作者",
+      "description": "完成 NFT 开发模块"
+    },
+    "zkPioneer": {
+      "title": "ZK 先锋",
+      "description": "完成 ZK 应用模块"
+    },
+    "completionist": {
+      "title": "完美主义者",
+      "description": "完成所有知识点"
+    }
+  },
+  "stats": {
+    "streak": "连续学习",
+    "days": "天",
+    "longestStreak": "最长连续",
+    "todayLearned": "今日已学习",
+    "keepItUp": "继续保持！"
+  },
+  "notes": {
+    "myNotes": "我的笔记",
+    "tabs": {
+      "write": "编辑",
+      "preview": "预览"
+    },
+    "toolbar": {
+      "bold": "加粗",
+      "italic": "斜体",
+      "code": "行内代码",
+      "codeBlock": "代码块",
+      "heading": "标题",
+      "quote": "引用",
+      "list": "无序列表",
+      "orderedList": "有序列表",
+      "link": "链接"
+    },
+    "placeholder": "开始写笔记... 支持 Markdown 语法",
+    "emptyPreview": "预览区域为空，开始写一些内容吧",
+    "supportMarkdown": "支持 Markdown 语法",
+    "characters": "字符",
+    "words": "词",
+    "titlePlaceholder": "笔记标题（可选）",
+    "contentPlaceholder": "在这里记录你的学习笔记...",
+    "tags": "标签",
+    "addTag": "添加标签...",
+    "add": "添加",
+    "pin": "置顶",
+    "pinned": "已置顶",
+    "delete": "删除",
+    "save": "保存",
+    "saving": "保存中...",
+    "saved": "已保存",
+    "unsaved": "未保存",
+    "lastSaved": "上次保存",
+    "confirmDelete": "确定要删除这条笔记吗？此操作不可撤销。",
+    "loginToNote": "登录后即可保存学习笔记",
+    "topicNotes": "知识点笔记",
+    "moduleNotes": "模块笔记",
+    "projectNotes": "项目笔记"
+  },
+  "report": {
+    "exportPdf": "导出 PDF 报告",
+    "exporting": "导出中...",
+    "exportSuccess": "报告已下载",
+    "exportError": "导出失败，请重试",
+    "loginRequired": "请先登录后再导出报告"
+  },
+  "ai": {
+    "title": "AI 学习助手",
+    "subtitle": "Web3 专业问答",
+    "welcome": "你好！我是你的 Web3 学习助手",
+    "welcomeDesc": "我可以帮你解答区块链、智能合约、DeFi、NFT 等 Web3 相关问题",
+    "quickPrompts": "快速提问",
+    "inputPlaceholder": "输入你的问题...",
+    "thinking": "思考中...",
+    "poweredBy": "由 AI 驱动",
+    "error": "发生错误，请重试"
+  },
+  "codeReview": {
+    "title": "智能代码审计",
+    "subtitle": "AI 驱动的合约安全分析",
+    "startReview": "开始审计",
+    "reviewing": "审计中...",
+    "codePlaceholder": "粘贴你的智能合约代码...",
+    "summary": "概要",
+    "issues": "发现问题",
+    "highlights": "代码亮点",
+    "recommendations": "改进建议",
+    "noResults": "粘贴代码并点击「开始审计」查看分析结果",
+    "error": "审计失败，请重试",
+    "scores": {
+      "security": "安全性",
+      "gasEfficiency": "Gas 效率",
+      "codeQuality": "代码质量",
+      "overall": "综合评分"
+    }
+  },
+  "certificate": {
+    "title": "NFT 证书",
+    "subtitle": "将你的学习成就铸造成链上凭证",
+    "connectWallet": "连接钱包",
+    "connecting": "连接中...",
+    "disconnect": "断开连接",
+    "certificateOf": "证书",
+    "awardedTo": "授予",
+    "minted": "已铸造",
+    "completion": "完成度",
+    "mintNft": "铸造 NFT",
+    "minting": "铸造中...",
+    "alreadyMinted": "已铸造",
+    "completeToUnlock": "完成后解锁",
+    "totalCerts": "总证书",
+    "eligibleToMint": "可铸造",
+    "mintedCount": "已铸造",
+    "filterAll": "全部",
+    "filterEligible": "可铸造",
+    "filterMinted": "已铸造",
+    "walletNotConnected": "钱包未连接",
+    "connectToMint": "连接钱包后即可铸造 NFT 证书",
+    "connectWalletFirst": "请先连接钱包",
+    "mintSuccess": "铸造成功！",
+    "mintError": "铸造失败，请重试",
+    "noCertificates": "暂无证书",
+    "loginRequired": "登录查看证书",
+    "loginRequiredDesc": "登录后可以查看和铸造学习证书",
+    "aboutNftCerts": "关于 NFT 证书",
+    "whatIsNftCert": "什么是 NFT 证书？",
+    "whatIsNftCertDesc": "NFT 证书是存储在区块链上的学习成就凭证，不可篡改、永久保存，可以向任何人证明你的学习成果。",
+    "howToMint": "如何铸造证书？",
+    "howToMintDesc": "完成相应的学习内容后，连接你的钱包（如 MetaMask），点击铸造按钮即可将证书上链。"
+  }
+}
